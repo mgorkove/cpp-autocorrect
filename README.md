@@ -1,2 +1,5 @@
 # cpp-autocorrect
-Creates a text file whose content you can add on to the AutoHotkey AutoCorrect script to correct custom misspellings. In format "misspelled word::correctly spelled word."
+Creates a text file whose content you can add on to the AutoHotkey AutoCorrect script to correct custom misspellings. In format "misspelled word::correctly spelled word." Script uses the Stanford C++ libraries.
+-------------------
+What prompted me to make this:
+A few months ago, I accidentally spilled water all over my computer. As a result, some of the keys began malfunctioning; for example, the "g" key types both "g" and "b" when pressed. I became annoyed with this very quickly, because my computer misspelled almost every word! The warranty on my computer had expired already, and I thought it would be expensive to go get my keyboard fixed, so I didn't do that. So then I googled autocorrect programs to see if there was one that would autocorrect across all of the applications on my system, and AutoHotkey's AutoCorrect program fit the bill. The download included a script that I could modify and create an executable from very easily, so I created this program to include in the script the misspellings that my keyboard makes. I did it in C++ because I was working on an assignment for my C++ class at the time and I needed to practice for my midterm anyway. 
